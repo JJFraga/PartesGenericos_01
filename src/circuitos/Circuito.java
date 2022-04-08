@@ -11,6 +11,14 @@ package circuitos;
  */
 public class Circuito
 {
+    public int _capacidad = 0;
+    public Boolean _cebar = true;
+
+    public Circuito(int capacidad)
+    {
+        this._capacidad = capacidad;
+    }
+
     /**
      * @return the _capacidad
      */
@@ -25,11 +33,5 @@ public class Circuito
     public void setCapacidad(int _capacidad)
     {
         this._capacidad = _capacidad;
-    }
-    public int _capacidad = 0;
-
-    public Circuito(int capacidad)
-    {
-        this._capacidad = capacidad;
     }
 }
