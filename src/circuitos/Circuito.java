@@ -11,8 +11,25 @@ package circuitos;
  */
 public class Circuito
 {
-    public Circuito()
+    /**
+     * @return the _capacidad
+     */
+    public int getCapacidad()
     {
+        return _capacidad;
+    }
 
+    /**
+     * @param _capacidad the _capacidad to set
+     */
+    public void setCapacidad(int _capacidad)
+    {
+        this._capacidad = _capacidad;
+    }
+    public int _capacidad = 0;
+
+    public Circuito(int capacidad)
+    {
+        this._capacidad = capacidad;
     }
 }
