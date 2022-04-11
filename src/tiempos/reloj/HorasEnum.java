@@ -3,16 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package configuracion.emisores;
+package tiempos.reloj;
 
 /**
  *
  * @author JJ
  */
-public class Emisor
+public enum HorasEnum
 {
-    public Emisor()
-    {
 
-    }
 }
