@@ -11,7 +11,7 @@ package circuitos;
  */
 public class Circuito
 {
-    public int _capacidad = 0;
+    public int _capacidad = 50000;
     public Boolean _cebar = true;
 
     public Circuito(int capacidad)
