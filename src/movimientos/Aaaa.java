@@ -13,7 +13,6 @@ public class Aaaa
 {
     private String _nombre_2 = "goooooooooooog";
     private String _nombre_3 = "goooooooooooog";
-    private int _estatura = 0;
 
     public String getNombre_2()
     {
@@ -30,19 +29,14 @@ public class Aaaa
         return _nombre_3;
     }
 
+    private void Cambiar()
+    {
+
+    }
+
     public void setNombre_3(String _nombre_3)
     {
         this._nombre_3 = _nombre_3;
-    }
-
-    public int getEstatura()
-    {
-        return _estatura;
-    }
-
-    public void setEstatura(int _estatura)
-    {
-        this._estatura = _estatura;
     }
 
     public Aaaa(String nombre)
