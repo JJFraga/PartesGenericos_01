@@ -11,5 +11,5 @@ package movimientos;
  */
 public class Aaaa
 {
-
+    private String _nombre_2 = "gg";
 }
